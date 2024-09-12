@@ -8,7 +8,7 @@ A RESTful API built with Node.js and Express.js for managing blog users and arti
 ## Project Setup
 In order to spin up the project, in the root create .env with these three variables, with your own values.
 
-## Set Up Environment Variables
+# Set Up Environment Variables
 MONGO_URL
 JWT_SECRET
 PORT
@@ -17,10 +17,10 @@ After that run this command
 
 npm install && npm start
 
-## API Endpoint 
+# API Endpoint 
 User Authentication:
 
-Register: POST /api/v1/register
+# Register: POST /api/v1/register
 Login: POST /api/v1/login
 Get Profile: GET /api/v1/get-profile (requires authentication)
 Article Management:
@@ -32,8 +32,8 @@ Update Article: PUT /api/v1/articles/:id (requires authentication)
 Delete Article: DELETE /api/v1/articles/:id (requires authentication)
 
 
-##Using Postman
-## 1. Set Up Authentication
+## Using Postman
+# 1. Set Up Authentication
 Register a User:
 
 Method: POST
@@ -68,6 +68,7 @@ Copy code
 Authorization: Bearer <your-jwt-token>
 
 ## 2. Test Article Endpoints
+
 # Get All Articles:
 
 Method: GET
